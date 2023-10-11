@@ -1,7 +1,7 @@
 .slider {
-  background-image: url("/src/assets/background.jpeg") ;
+  background-image: url("/src/assets/background.jpeg");
   background-position: center;
-background-size: cover;
+  background-size: cover;
   display: flex;
   justify-content: space-between;
   width: 1449px;
@@ -9,11 +9,54 @@ background-size: cover;
 }
 
 .sliderRight {
-  display: flex;
   max-width: 439px;
+  margin: 120px 200px;
+  .sliderH5 {
+    color: #fff;
+    font-family: Core Sans C;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 37.771px; /* 118.035% */
+    letter-spacing: 0.157px;
+    text-transform: capitalize;
+  }
+}
 
-  align-items: start;
-  flex-direction: column;
+.sliderHeading {
+  .sliderH1 {
+    font-family: "Fira Sans ExtraBold";
+    margin-top: 40px;
+    color: #fff;
+    font-size: 78px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 93.622px; /* 120.028% */
+    letter-spacing: 0.315px;
+  }
+  p {
+    font-family: "Fira Sans Medium";
+    color: #fff;
+    margin-top: 40px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 47.214px; /* 147.544% */
+    letter-spacing: 0.315px;
+  }
+}
 
-  margin: 200px 120px;
+.Btn {
+  color: #3c4242;
+  text-align: center;
+  font-family: Causten;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 16px 72px;
+  gap: 12px;
+  margin-top: 40px;
+  border-radius: 8px;
+  border: none;
 }
