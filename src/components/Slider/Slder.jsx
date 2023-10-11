@@ -4,16 +4,12 @@ function Slider() {
   return (
     <div className={styles.sliderRight}>
       <div className={styles.info}>
-        <div className={styles.sliderH5}>
-          <h5 className="">T-shirt / Tops</h5>
-        </div>
-        <div className={styles.sliderH1}>
-          <h1>Summer Value Pack</h1>
+        <h5 className={styles.sliderH5}>T-shirt / Tops</h5>
+        <h1 className={styles.sliderH1}>Summer Value Pack</h1>
+        <div>
           <p>cool / colorful / comfy</p>
         </div>
-        <div className="Btn-Slider">
-          <button className="Btn">Shop Now</button>
-        </div>
+        <button className={styles.Btn}>Shop Now</button>
       </div>
     </div>
   );

@@ -1,17 +1,57 @@
 .sliderRight {
-    background-image: url("/src/assets/background.png");
-    width: 1449px;
-    height: 716px;
+  background-image: url("/src/assets/background.jpeg");
+  display: flex;
+  width: 1449px;
+  height: 716px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.info {
+  position: absolute;
+  padding-bottom: 129px;
+  padding-left: 193px;
+  display: flex;
+  width: 439px;
+  flex-direction: column;
+  gap: 40px;
+  p {
+    color: #fff;
+    font-family: Core Sans C;
+    font-size: 26px;
+    font-style: normal;
   }
-  
-  .info {
-      display: flex;
-  }
-  
-  .sliderH5 {
-    display: flex;
-  }
-  
+  // // .sliderH5 {
+  // //   display: flex;
+  // //   justify-content: flex-start;
+  // //   text-align: start;
+  // //   color: #FFF;
+  // //   font-family: Core Sans C;
+  // //   font-size: 32px;
+  // //   font-style: normal;
+  // //   font-weight: 500;
+  // //   line-height: 37.771px;
+  // //   letter-spacing: 0.157px;
+  // //   text-transform: capitalize;
+  // }
   .sliderH1 {
-    display: flex;
+      color: #fff;
+      font-family: Core Sans C;
+      font-size: 25px;
+      font-style: normal;
   }
+  .Btn {
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    background: #fff;
+    color: #3c4242;
+    text-align: center;
+    font-family: Causten;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 0;
+  }
+}
