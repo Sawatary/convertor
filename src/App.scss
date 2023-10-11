@@ -1,12 +1,9 @@
 *{
-  background-color: black;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-}
-div {
-  background-color: grey;
-}
-h1{
-  viewport-fit: 2123;
+  box-sizing: border-box;
+
+
+  max-width: 1440px;
+  margin: 0 auto;
 }
