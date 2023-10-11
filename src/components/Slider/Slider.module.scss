@@ -1,7 +1,7 @@
 .slider {
-  background-image: url("/src/assets/background.jpeg") ;
+  background-image: url("/src/assets/background.jpeg");
   background-position: center;
-background-size: cover;
+  background-size: cover;
   display: flex;
   justify-content: space-between;
   width: 1449px;
@@ -9,11 +9,8 @@ background-size: cover;
 }
 
 .sliderRight {
-  display: flex;
   max-width: 439px;
 
-  align-items: start;
-  flex-direction: column;
-
   margin: 200px 120px;
+  text-align: start;
 }
