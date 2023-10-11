@@ -6,6 +6,7 @@ function App() {
     <>
       <div>
         <Header />
+        <div>123</div>
       </div>
     </>
   );
