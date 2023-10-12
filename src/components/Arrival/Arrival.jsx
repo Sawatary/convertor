@@ -7,22 +7,22 @@ const Arrival = () => {
     {
       id: "0",
       title: "Knitted Joggers",
-      imageUrl: "./src/assets/images/Arrival/card1.png",
+      imgUrl: "./src/assets/images/Arrival/card1.png",
     },
     {
       id: "1",
       title: "Full Sleeve",
-      imageUrl: "./src/assets/images/Arrival/card2.png",
+      imgUrl: "./src/assets/images/Arrival/card2.png",
     },
     {
       id: "2",
       title: "Active T-Shirts",
-      imageUrl: "./src/assets/images/Arrival/card3.png",
+      imgUrl: "./src/assets/images/Arrival/card3.png",
     },
     {
       id: "3",
       title: "Urban Shirts",
-      imageUrl: "./src/assets/images/Arrival/card4.png",
+      imgUrl: "./src/assets/images/Arrival/card4.png",
     },
   ];
   return (
@@ -35,17 +35,12 @@ const Arrival = () => {
             <ArrivalCard
               key={item.id}
               title={item.title}
-              image={item.imageUrl}
+              imgUrl={item.imgUrl}
             />
           );
         })}
-        < ArrivalCard />
-        <div className={styles.card}>
-          <img src="/src/assets/images/Arrival/card1.png" alt="" />
-          <p>Knitted Joggers</p>
         </div>
       </div>
-    </div>
   );
 };
 

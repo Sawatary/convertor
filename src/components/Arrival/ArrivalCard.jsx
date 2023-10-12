@@ -1,9 +1,9 @@
 import styles from "./Arrival.module.scss";
 
-const ArrivalCard = ({ title, imageUrl }) => {
+const ArrivalCard = ({ title, imgUrl }) => {
   return (
     <div className={styles.card}>
-      <img src={imageUrl} alt="" />
+      <img src={imgUrl} alt="" />
       <p>{title}</p>
     </div>
   );
