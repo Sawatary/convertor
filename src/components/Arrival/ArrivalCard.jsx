@@ -1,18 +1,12 @@
-import Arrival from "./Arrival";
+import styles from "./Arrival.module.scss";
 
-const ArrivalCard = ([
-    image,
-    title
-]) => {
-    return (
-        <div>
-            <div>
-                <div>
-                    
-                </div>
-            </div>
-        </div>
-    )
-}
+const ArrivalCard = ({ title, imageUrl }) => {
+  return (
+    <div className={styles.card}>
+      <img src={imageUrl} alt="" />
+      <p>{title}</p>
+    </div>
+  );
+};
 
 export default ArrivalCard;
