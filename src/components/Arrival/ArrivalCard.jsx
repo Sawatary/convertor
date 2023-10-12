@@ -5,7 +5,9 @@ const ArrivalCard = ([
     title
 ]) => {
     return (
-        
+        <div>
+            
+        </div>
     )
 }
 

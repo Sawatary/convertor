@@ -1,5 +1,5 @@
 import styles from "./Arrival.module.scss";
-import ArrivalCard from "./ArrivalCard"
+import ArrivalCard from "./ArrivalCard/";
 
 const Arrival = () => {
   return (
