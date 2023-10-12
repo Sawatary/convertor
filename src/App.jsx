@@ -14,7 +14,7 @@ function App() {
         <Slider />
         <Discounts />
         <Arrival />
-        {/* <TopSales /> */}
+        <TopSales />
       </div>
     </>
   );

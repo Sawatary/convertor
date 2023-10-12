@@ -3,7 +3,7 @@ import SectionHeading from "../UI/Heading/SectionHeading";
 
 const TopSales = () => {
   return (
-    <section>
+    <section className={styles.topSales}>
       <SectionHeading title="Big Saving Zone" />
     </section>
   );
