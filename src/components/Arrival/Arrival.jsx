@@ -1,6 +1,6 @@
 import styles from "./Arrival.module.scss";
 import SectionHeading from "../UI/Heading/SectionHeading";
-import ArrivalCard from "./ArrivalCard";
+import ArrivalCard from "./ArrivalCard/";
 
 const Arrival = () => {
   const ArrivalCards = [
