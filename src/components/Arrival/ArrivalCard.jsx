@@ -6,7 +6,9 @@ const ArrivalCard = ([
 ]) => {
     return (
         <div>
-            
+            <div>
+                
+            </div>
         </div>
     )
 }
