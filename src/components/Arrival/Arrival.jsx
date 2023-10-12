@@ -1,21 +1,12 @@
 import styles from "./Arrival.module.scss";
+import SectionHeading from "../UI/Heading/SectionHeading";
 import ArrivalCard from "./ArrivalCard/";
 
 const Arrival = () => {
   return (
     <div className={styles.newArrival}>
-      <div className={styles.name}>
-        <svg
-          width="6"
-          height="30"
-          viewBox="0 0 6 30"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <rect width="6" height="30" rx="3" fill="#8A33FD" />
-        </svg>
-        <h2 className={styles.arrivalH2}>New Arrival</h2>
-      </div>
+      <SectionHeading title="New Arrival" />
+      
       <div className={styles.allCard}>
         <div className={styles.card}>
           <img src="/src/assets/images/Arrival/card1.png" alt="" />

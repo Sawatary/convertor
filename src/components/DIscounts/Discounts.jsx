@@ -2,7 +2,7 @@ import styles from "./Discounts.module.scss";
 import DiscountsCard from "./DiscountsCard";
 
 const Discounts = () => {
-  const DiscountCard = [
+  const DiscountCards = [
     {
       id: "0",
       title: "High Coziness",
@@ -24,7 +24,7 @@ const Discounts = () => {
   return (
     <section>
       <ul className={styles.DiscountList}>
-        {DiscountCard.map((item) => {
+        {DiscountCards.map((item) => {
           return (
             <DiscountsCard
               key={item.id}
