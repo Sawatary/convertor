@@ -1,0 +1,31 @@
+.newArrival {
+  width: 1238px;
+  padding-top: 70px;
+  gap: 70px;
+}
+
+.allCard {
+  max-width: 1167px;
+  display: flex;
+  align-items: center;
+  gap: 38.58px;
+  .card {
+    p {
+      padding-top: 25px;
+      color: #3c4242;
+      font-family: Causten;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.2px;
+    }
+  }
+}
+
+.name {
+  padding-bottom: 70px;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 25px;
+}
