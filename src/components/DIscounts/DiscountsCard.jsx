@@ -1,14 +1,27 @@
 import styles from "./Discounts.module.scss";
 
-const DiscountsCard = () => {
+const DiscountsCard = ({
+  title,
+  discription,
+  discount,
+  searchItem,
+  bacground,
+}) => {
   return (
-    <li>
-      <p>Low Price</p>
-      <div>
-        <h3>High Coziness</h3>
-        <p>UPTO 50% OFF</p>
+    <li
+      className={styles.DiscountsCard}
+      style={{
+        backgroundImage: `url(${bacground})`,
+      }}
+    >
+      <p className={styles.cardDiscription}>{discription}</p>
+      <div className={styles.cardInfo}>
+        <h3 className={styles.cardHeading}>{title}</h3>
+        <p className={styles.cardDiscount}>{discount}</p>
       </div>
-      
+      <h4 className={styles.searchItem}>{searchItem}</h4>
     </li>
   );
 };
+
+export default DiscountsCard;

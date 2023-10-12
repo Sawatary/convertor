@@ -1,0 +1,61 @@
+.DiscountsCard {
+  background: url("./../../assets/images/Discounts/dis1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+
+  width: 604px;
+  height: 355px;
+
+  padding: 80px 30px;
+}
+.DiscountList {
+  margin-top: 100px;
+
+  display: flex;
+  justify-content: center;
+}
+.DiscountsCard:not(:last-child) {
+  margin-right: 30px;
+}
+.cardDiscription {
+  color: #fff;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 30.067px;
+  letter-spacing: 0.251px;
+}
+.cardHeading {
+  color: #fff;
+  font-family: Core Sans C;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 45.1px;
+}
+.cardInfo{
+    margin-top: 24px;
+}
+.cardDiscount {
+  color: #fff;
+  font-family: Core Sans C;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25.056px;
+  letter-spacing: 0.251px;
+}
+.searchItem {
+  color: #fff;
+  font-family: Core Sans C;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 30.132px; 
+  text-decoration-line: underline;
+
+  margin-top: 41px;
+}
