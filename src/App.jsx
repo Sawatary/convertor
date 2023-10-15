@@ -5,6 +5,7 @@ import Slider from "./components/Slider/Slder";
 import Discounts from "./components/DIscounts/Discounts";
 import Arrival from "./components/Arrival/Arrival";
 import TopSales from "./components/topSales/topSales";
+import Photo from "./components/Photo/Photo";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Discounts />
         <Arrival />
         <TopSales />
+        <Photo />
       </div>
     </>
   );
