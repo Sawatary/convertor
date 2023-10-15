@@ -1,0 +1,26 @@
+.allCard {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.info {
+  color: #ffff;
+  padding-left: 190px;
+  padding-top: 230px;
+  position: absolute;
+  width: 700px;
+  height: 282px;
+  h1 {
+    margin-bottom: 30px;
+  }
+  p {
+    margin-bottom: 30px;
+  }
+  button {
+    color: #3c4242;
+    border-radius: 12px;
+    height: 40px;
+    width: 140px;
+  }
+}
