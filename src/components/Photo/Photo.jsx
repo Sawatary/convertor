@@ -2,7 +2,7 @@ import styles from "./Photo.module.scss";
 
 const Photo = () => {
   return (
-    <div className={styles.allCard}>
+    <div className={styles.photoContainer}>
       <div className={styles.card}>
         <img src="./src/assets/images/Photo/backgrond1.png" alt="" />
         <img src="./src/assets/images/Photo/backgrond2.png" alt="" />
